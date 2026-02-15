@@ -75,6 +75,7 @@ public class TestIterator {
     while (i.hasNext()) {
       if (i.next() == 77) {
         i.remove(); // TODO Question: What happens if you use list.remove(Integer.valueOf(77))?
+        // if you use list.remove(Integer.valueOf(77)) instead of i.remove(), you would be modifying the list directly during iteration, giving you ConcurrentModificationException.
       }
     }
     // TODO using assertEquals and List.of, express which values are left in the list
