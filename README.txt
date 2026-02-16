@@ -62,8 +62,8 @@ TestPerformance.java
 
 	listAccess - which type of List is better to use, and why?
 
-		Your answer here.
+		The ArrayList is better to use for access because it is constant time (O(1)) and LinkedLists traverse the list making it O(n), increasing time as size increases.
 
 	listAddRemove - which type of List is better to use, and why?
 
-		Your answer here.
+		LinkedLists are better to use for adding and removing at the head because it accesses the pointers directly(O(1), but ArrayLists have to shift all the elements, making it O(n).
