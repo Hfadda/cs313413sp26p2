@@ -21,6 +21,7 @@ public class TestIterator {
   public void setUp() throws Exception {
     list = new ArrayList<Integer>();
     // TODO Question: Also try with a LinkedList - does it make any difference?
+    //LinkedLists works for this problem and passes all the tests the same way. Although it performs differently, they both implement the List interface and are correct.
   }
 
   @After
