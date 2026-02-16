@@ -96,6 +96,7 @@ public class TestList {
     list.add(77);
     list.add(6);
     list.remove(5); // TODO Question: What does this method do?
+    //removes the element at index 5
     // TODO fix the expected values in the assertions below
     assertEquals(0, list.size());
     assertEquals(0, list.indexOf(77));
