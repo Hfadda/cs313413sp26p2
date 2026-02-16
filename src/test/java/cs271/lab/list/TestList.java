@@ -104,6 +104,7 @@ public class TestList {
     assertEquals(0, list.get(2).intValue());
     assertEquals(0, list.get(3).intValue());
     list.remove(Integer.valueOf(5)); // TODO Question: What does this one do?
+    //removes the value 5
     assertEquals(0, list.size());
     assertEquals(0, list.indexOf(77));
     assertEquals(0, list.lastIndexOf(77));
